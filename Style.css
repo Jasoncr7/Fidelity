@@ -7,13 +7,12 @@ body{
 	background-image: url(bg.jpg);
 	background-size: cover;
 	height: auto;
+	background-repeat: no-repeat;
 }
 .logo{
 	width: 83px;
 	height: 69px;
-	position: absolute;
-	top:40px; 
-	left: 1250px;
+	float: right;
 }
 h1{
 	font-size: 21px;
