@@ -1,0 +1,77 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Verdana, sans-serif;
+}
+body{
+	background-image: url(bg.jpg);
+	background-size: cover;
+	height: auto;
+}
+.logo{
+	width: 83px;
+	height: 69px;
+	position: absolute;
+	top:40px; 
+	left: 1250px;
+}
+h1{
+	font-size: 21px;
+	color: #fff;
+	margin-top: 200px;
+
+}
+input{
+	background-color: transparent;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: solid 1px #fff;
+	width: 100%;
+	padding-top:  15px;
+	padding-bottom: 15px;
+}
+.container{
+	display: flex;
+}
+.advert{
+	width: 70%;
+	height: auto;
+}
+.login{
+	width: 30%;
+	height: 580px;
+	background-color: rgba(63, 63, 191, 0.7);
+	padding:  35px;
+}
+.login > a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 12px;
+}
+.advert > img{
+	width: 325px;
+	height: 261px;
+	padding-top: 100px;
+	padding-left: 100px;
+}
+.footer, footer > p {
+	font-size: 10pt;
+	color: #fff;
+	text-decoration: none;
+	margin-top: 250px;
+}
+.forgotten{
+	float: right;
+	padding-bottom: 10px;
+	padding-top: 12px;
+}
+button{
+	width: 100%;
+	height: 40px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+.RegisterHere{
+	margin-top:  10px;
+}
